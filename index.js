@@ -38,20 +38,20 @@ buttonSubmit.addEventListener("click", (event) =>{
 
         if(bodyMass < 18.5){
             p.classList.add("biscuit")
-                    p.textContent =`Your Body Mass Index (BMI) is ${bodyMass}kg/cm^2 and 
+                    p.textContent =`Your Body Mass Index (BMI) is ${bodyMass}kg/m^2 and 
                      you are UNDERWEIGHT `
         }else if(bodyMass >= 18.5 && bodyMass < 25){
             p.classList.add("biscuit")
-            p.textContent =`Your Body Mass Index (BMI) is ${bodyMass}kg/cm^2 and 
+            p.textContent =`Your Body Mass Index (BMI) is ${bodyMass}kg/m^2 and 
             you are NORMAL `
         }else if(bodyMass >= 25 && bodyMass < 30 ){
             p.classList.add("grace")
-            p.textContent =`Your Body Mass Index is ${bodyMass}kg/cm^2 and 
+            p.textContent =`Your Body Mass Index is ${bodyMass}kg/m^2 and 
             you are OVERWEIGHT. 
             Please have more exercise and visit a Dietitian ` 
         }else{
             p.classList.add("grace")
-            p.textContent =`Your Body Mass Index (BMI) is ${bodyMass}kg/cm^2 and 
+            p.textContent =`Your Body Mass Index (BMI) is ${bodyMass}kg/m^2 and 
             you are OBESE.
             Please have more exercise and visit a Dietitian ` 
         }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+                <div class="parent1">
+                    <div id="image"><img src="./image/book1.jpg" alt=""></div>
+                    
+                </div> <!-- parent1 -->
+                <form  id="myForm" class="parent">
+                    <div class="div-p"><P>BMI CALCULATOR</p></div>
+                    <div class="divWeight">
+                        
+                        <label for="weight">WEIGHT</label>
+                        <input type="text"  id="weight" placeholder="0" >
+                        <p class="kilo">kg</p>
+
+                    
+                    </div>
+                    
+                    <div   class="divHeight">
+                        <label for="height">HEIGHT</label>
+                        <input type="text" id="height" placeholder="0">
+                        <p class="cent">cm</p>
+                    </div>
+                    <p id="statement"></p>
+                <div id="botton">
+                    <button id="submit">Calculate</button>
+                    <button id="reset" onclick="locationReload()">Reset</button>
+                </div><!-- botton -->
+                </form><!--form-->
+
+    
+       
+
+    </div> <!-- container -->
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
